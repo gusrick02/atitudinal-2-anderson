@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cadastro-login{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 45px;
+    width: 200px;
+}
+.login{
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.bnt-login{ 
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    background: #577eff;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.bnt-login:hover{
+    background: #ffffff;
+    border: 2px solid #000000;
+    color:#577eff
+}
+
+.cadastrar h1{
+    margin-top: 40vh;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+}
+.cadastrar p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
